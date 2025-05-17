@@ -38,7 +38,7 @@ const TaskForm = ({ onSubmit, editingTask, onClose }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-xl p-6 shadow-lg space-y-4">
+    <form onSubmit={handleSubmit} className="bg-white rounded-xl p-6 shadow-lg space-y-4 w-full h-full">
       <div>
         <label className="block font-semibold mb-1">Title</label>
         <input
