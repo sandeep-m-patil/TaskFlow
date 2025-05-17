@@ -106,7 +106,7 @@ const App = () => {
       </div>
 
       {/* Task form modal */}
-      <div className="mt-6 space-y-4">
+      <div className="mt-6 space-y-4 w-full h-full">
         {isFormOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-white bg-opacity-50">
             <div className="bg-white rounded-lg w-full max-w-md mx-4 shadow-lg">
