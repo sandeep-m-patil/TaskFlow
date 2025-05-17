@@ -109,7 +109,7 @@ const App = () => {
       <div className="mt-6 space-y-4">
         {isFormOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-white bg-opacity-50">
-            <div className="bg-white rounded-lg w-full h-full max-w-md mx-4 shadow-lg">
+            <div className="bg-white rounded-lg w-full max-w-md mx-4 shadow-lg">
               <TaskForm
                 editingTask={editingTask}
                 onSubmit={(task) => {
