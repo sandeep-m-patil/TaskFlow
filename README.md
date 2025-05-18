@@ -1,12 +1,56 @@
-# React + Vite
+# TaskFlow 📝 – Task Manager Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TaskFlow** is a sleek and intuitive task management web application built using **React**, **Vite**, and **Tailwind CSS**. It offers a complete CRUD experience using `localStorage`, ensuring your tasks are saved even after closing the browser — with no backend required.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ **Create, Read, Update, and Delete (CRUD)** tasks
+- 🧠 **Priority filtering**: View tasks by **Low**, **Medium**, or **High** priority
+- ✔️ **Completion tracking** with progress bar
+- 📂 **Filter by completion status**: Show only **Completed** or **All** tasks
+- 💾 **Persistent storage** with `localStorage`
+- 🖥️ **Responsive & minimal UI** built with Tailwind CSS
+- ⚡ **Super fast** with Vite development setup
+
+
+## 🖼️ UI Preview
+
+> Below is a preview of the task management interface, including the progress bar and filtering buttons:
+
+![TaskFlow UI Preview](./src/assets/TaskFlow.png)
+
+
+## 🛠 Tech Stack
+
+| Technology     | Purpose                         |
+|----------------|---------------------------------|
+| React          | Frontend JavaScript framework   |
+| Vite           | Next-generation frontend tooling |
+| Tailwind CSS   | Utility-first CSS styling       |
+| localStorage   | Browser-based task persistence  |
+
+
+
+## 🚀 Getting Started
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/sandeep-m-patil/TaskFlow.git
+cd TaskFlow
+```
+
+#### 2.  Install Dependencies
+```bash
+npm install
+```
+
+#### Start the App
+```bash
+npm run dev
+```
+
+#### Open your browser and navigate to http://localhost:5173.
+
